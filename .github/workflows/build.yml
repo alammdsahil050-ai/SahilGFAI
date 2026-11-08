@@ -10,6 +10,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
+            accept-android-sdk-licenses: true
           java-version: 17
       - uses: gradle/actions/setup-gradle@v4
         with:
